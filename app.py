@@ -10,7 +10,7 @@ app = Flask(__name__) # initializing a FLASK app
 def homePage():
     # print('Hello, please enter your values')
     return render_template("index.html")
-
+git 
 
 @app.route('/train',methods=['GET'])  # route to train the pipeline
 def training():
